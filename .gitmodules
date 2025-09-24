@@ -1,0 +1,5 @@
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/jacksteussie/nvim-config.git
+[submodule "*"]
+	branch = main

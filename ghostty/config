@@ -1,0 +1,15 @@
+### Keybinds and Shortcuts ###
+keybind = shift+enter=text:\x1b\r
+
+
+### Colors and Themes ###
+macos-icon = custom-style
+macos-icon-ghost-color = BCBEC4
+macos-icon-screen-color = 1E1F22
+background-opacity = 0.9
+background-blur = true
+# background = 000000
+theme = Argonaut
+font-family = "JetBrainsMonoNL Nerd Font Mono"
+window-height = "33"
+window-width = "120"
