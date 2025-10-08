@@ -26,3 +26,5 @@ eval "$(starship init zsh)"
 
 fastfetch -l ~/.ghost.txt
 alias vim=nvim
+alias ll='ls -lh'
+alias la='ls -lah'

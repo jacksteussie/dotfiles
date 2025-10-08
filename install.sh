@@ -9,3 +9,4 @@ stow -t ~/.config/sketchybar sketchybar
 stow -t ~/.config/borders borders
 
 stow -t ~/ zsh
+stow -t ~/ tmux
