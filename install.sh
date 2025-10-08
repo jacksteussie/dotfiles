@@ -13,6 +13,7 @@ stow -t ~/ tmux
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "darwin detected..."
+    brew update
     brew bundle install --file=~/.dotfiles/Brewfile
     open -a AeroSpace
 fi
