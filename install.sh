@@ -10,3 +10,9 @@ stow -t ~/.config/borders borders
 
 stow -t ~/ zsh
 stow -t ~/ tmux
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    echo "darwin detected..."
+    brew bundle install --file=~/.dotfiles/Brewfile
+    open -a AeroSpace
+fi
