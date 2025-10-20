@@ -24,7 +24,7 @@ eval "$(starship init zsh)"
 #  tmux new-session -s mysession 'pokemon-colorscripts -r; fastfetch;'
 # fi
 
-fastfetch -l ~/.ghost.txt
+fastfetch -l ~/.ghost.txt --config ~/.config/fastfetch/config.jsonc
 alias vim=nvim
 alias ll='ls -lh'
 alias la='ls -lah'
