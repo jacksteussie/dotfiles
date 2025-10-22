@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p ~/.config/nvim ~/.config/starship ~/.config/ghostty ~/.config/aerospace/ ~/.config/sketchybar/ ~/.config/borders/
+mkdir -p ~/.config/nvim ~/.config/starship ~/.config/ghostty ~/.config/aerospace/ ~/.config/sketchybar/ ~/.config/borders/ ~/.config/fastfetch/
 stow -t ~/.config/nvim nvim
 stow -t ~/.config starship
 stow -t ~/.config/ghostty ghostty
